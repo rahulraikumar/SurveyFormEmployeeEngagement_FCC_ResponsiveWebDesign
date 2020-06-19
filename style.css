@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+*{
+  box-sizing: border-box;
+}
+body {
+
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  text-align: center;
+  background-image: linear-gradient(
+      180deg,
+      rgba(255,0,255, 0.8),
+      rgba(0, 255, 255, 0.5)
+    ), url(https://www.talentlms.com/blog/wp-content/uploads/2018/01/TLMS_20180129_1200x628.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  background-attachment: fixed;
+}
+form{
+ width: 100%;
+ padding: 15px;
+ background-color:  rgba(27, 27, 50, 0.8);
+   border-radius: 10px; 
+}
+.group{
+  text-align: left;
+  margin: auto 50px;
+}
+
+.container{
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+}
+#name, #email,#number,#dropdown,#suggestions,#submit{
+  max-width: 100%;
+  width: 100%;
+  margin: 10px auto;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  border-radius: 5px;
+}
+.clue{
+  margin: 0 5px;
+  font-size: 0.85rem;
+}
+button{
+  background-color: rgba(0, 255, 255, 0.5);
+  padding: 5px;
+}
+button:hover{
+  background-color: rgba(255,0,255, 0.8);
+}
+
+      

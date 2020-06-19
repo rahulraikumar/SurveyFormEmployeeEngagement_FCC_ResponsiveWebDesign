@@ -1,0 +1,88 @@
+<div class="container">
+  <header class="header">
+    <h1 id="title">Employee Engagement Survey</h1>
+    <p id="description">Thank you for taking the time to help us improve</p>
+  </header>
+    <form id="survey-form">
+      <div class="group">
+        <label id="name-label" for="name">Name</label><br>
+        <input 
+               type="text"
+               name="name"
+               id="name"
+               placeholder="Enter your name"
+               required
+               />
+      </div>
+      <div class="group">
+        <label id="email-label" for="email">E-mail</label><br>
+        <input
+               type="email"
+               name="email"
+               id="email"
+               placeholder="Enter your E-mail ID"
+               required
+               />
+      </div>
+      <div class="group">
+        <label id="number-label" for="number">Age</label><br>
+        <input
+               type="number"
+               name="age"
+               id="number"
+               min="20"
+               max="60"
+               placeholder="Enter your Age"
+               required
+               />
+      </div>
+      <div class="group">
+        <label id="dropdown-label" for="dropdown">Sex</label><br>
+        <select id="dropdown" required/>
+          <option disabled selected value>Select an option</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="transgender">Transgender</option>
+          <option value="none">Don't want to disclose</option>
+        </select>
+      </div>
+      <div class="group">
+        <p>Where should we go for the outing?</p>
+        <label>
+          <input type="radio" name="outing" id="farm-house" value="farm-house" required>Farm House</label><br>
+        <label>
+          <input type="radio" name="outing" id="beach-house" value="beach-house">Beach House</label><br>
+        <label>
+          <input type="radio" name="outing" id="resort" value="resort">Resort</label><br>
+        <p>Food Preference:</p>
+        <label>
+          <input type="radio" name="food" id="vegetarian" value="vegetarian" required>Vegetarian</label><br>
+        <label>
+          <input type="radio" name="food" id="non-vegetarian" value="non-vegetarian">Non-Vegetarian</label><br>
+        <label>
+          <input type="radio" name="food" id="eggetarian" value="eggetarian">Eggetarian</label><br>
+        <label>
+          <input type="radio" name="food" id="vegan" value="vegan">Vegan</label><br>
+      </div>
+      <div class="group" required>
+        <p>Activities you want to take part in:<span class="clue">(you can select mutiple)</span></p>
+        <label>
+          <input type="checkbox" name="activity" id="singing" value="singing">Singing</label><br>
+        <label>
+          <input type="checkbox" name="activity" id="dancing" value="dancing">Dancing</label><br>
+        <label>
+          <input type="checkbox" name="activity" id="comedy" value="comedy">Stand-up Comedy</label><br>
+        <label>
+          <input type="checkbox" name="activity" id="volleyball" value="volleyball">Volleyball</label><br>
+        <label>
+          <input type="checkbox" name="activity" id="football" value="football">Football</label><br>
+        <label>
+          <input type="checkbox" name="activity" id="cricket" value="cricket">Cricket</label><br><br>
+      </div>
+    <div class="group">
+      <label for="suggestions">Any other suggestions for the outing?</label><br>
+      <textarea name="suggestions" id="suggestions" placeholder="Enter your suggestions here..."></textarea>
+      <button type="submit" id="submit">Submit</button>
+    </div>
+    </form>
+</div>
